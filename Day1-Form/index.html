@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title> Application Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Job Application <span>(web)</span></h1>
+      <form action="#">
+        <div>
+          <label for="first-name">First Name</label>
+          <input type="text" required placeholder="Enter First Name..." />
+        </div>
+        <div>
+          <label for="last-name">Last Name</label>
+          <input type="text" required placeholder="Enter Last Name..." />
+        </div>
+        <div>
+          <label for="Email">Email</label>
+          <input type="email" required placeholder="Enter Email..." />
+        </div>
+        <select>
+          <option value="select">Select the job</option>
+          <option value="fronted-developer">Fronted-Developer</option>
+          <option value="backend-developer">Backend-Developer</option>
+          <option value="full-stack-developer">Full-Stack-Developer</option>
+          <option value="UI-UX-Designer">UI UX Designer</option>
+        </select>
+        <div class="Address">
+          <label for="Address">Address</label>
+          <textarea rows="5" cols="14"></textarea>
+        </div>
+        <div>
+          <label for="City"> City </label>
+          <input type="text" required placeholder="Enter the City..." />
+        </div>
+        <div>
+          <label for="Pincode"> Pincode </label>
+          <input type="text" required placeholder="Enter the Pincode..." />
+        </div>
+        <div>
+          <label for="Date">Date</label>
+          <input type="date" required />
+        </div>
+        <div>
+          <label for="upload-your-cv"> Upload Your CV </label>
+          <input type="file" />
+        </div>
+        <button class="btn">Apply Now</button>
+      </form>
+    </main>
+  </body>
+</html>
