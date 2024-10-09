@@ -13,7 +13,7 @@ html {
   grid-template-columns: 1fr 5fr;
   column-gap: 0.4rem;
 }
-/* section -heading======================== */
+/* section-heading======================== */
 .heading-section {
   font-size: 1.4rem;
   border-right: 1px solid black;
@@ -34,11 +34,6 @@ html {
   padding: 0.5rem 1rem;
   border-bottom: 1px solid black;
 }
-/* 
-.heading-list-block a {
-  margin-top: 1.2rem;
-
-} */
 /* section-content================== */
 .section-content {
   padding: 1.5rem 3rem;
