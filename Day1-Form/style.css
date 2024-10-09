@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "SUSE", "Times New Roman", Times, serif;
+  font-size: 64.5%;
+}
+body {
+  background-color: rgb(205, 165, 158);
+}
+main {
+  background-color: rgb(251, 249, 246);
+  box-shadow: 2px 4px 8px grey;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 570px;
+  border-radius: 9px;
+}
+h1 {
+  font-size: 3rem;
+}
+span {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+form {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
+  align-items: center;
+  row-gap: 1.3rem;
+  justify-content: center;
+}
+label {
+  font-size: 1.5rem;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+input,
+select {
+  width: 96%;
+}
+input,
+select,
+textarea {
+  padding: 0.6rem;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+select {
+  align-self: last baseline;
+}
+.Address {
+  grid-column: 1 / span 2;
+}
+.btn {
+  grid-column: 1 / span 2;
+  justify-self: end;
+  background-color: red;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
