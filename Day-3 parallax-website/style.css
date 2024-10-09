@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inria Sans", "Times New Roman", Times, serif;
+  font-size: 64.5%;
+}
+.img {
+  width: 99vw;
+  height: 140vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-1 {
+  background-image: url("img/Nature-img1.jpg");
+}
+.img-2 {
+  background-image: url("img/Nature-img2.jpg");
+}
+.img-3 {
+  background-image: url("img/Nature-img4.jpg");
+}
+.img-4 {
+  background-image: url("img/Nature-img3.jpg");
+}
+
+h1 {
+  text-align: center;
+}
+.web {
+  font-weight: 900;
+  background-color: black;
+  color: aliceblue;
+  font-size: 3rem;
+  display: inline-block;
+  padding: 1rem;
+}
+.section-one {
+  padding: 10rem;
+  text-align: center;
+  margin: 20rem 0;
+  background-color: aliceblue;
+  box-shadow: 3px 4px 8px grey;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.ik {
+  position: absolute;
+  z-index: -1;
+}
+.main-section {
+  padding: 26rem 0;
+}
