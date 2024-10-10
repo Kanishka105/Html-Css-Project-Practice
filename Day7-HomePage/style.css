@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ewert&family=Monoton&display=swap");
+:root {
+  --primary-color: purple;
+  --body-backgroundColor: rgb(242, 223, 242);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-size: 64.5%;
+}
+header {
+  padding: 1rem 8rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  position: relative;
+}
+.back {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(img/header-image.png);
+}
+.logo-img {
+  width: 15rem;
+}
+.anchor:link,
+.anchor:visited,
+.selector {
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+.anchor:link,
+.anchor:visited {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background-color: red;
+}
+.selector {
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: 2px solid black;
+  outline: 3px solid white;
+}
+option {
+  border: 4px solid black;
+  color: black;
+}
+.nav-detail {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.anchor:hover {
+  background-color: orange;
+  transition: all 0.8s;
+}
+/* print-section=============================================== */
+.print-section {
+  margin: 4rem auto;
+  width: 50vw;
+  color: white;
+}
+.print-section h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.print-section p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0 2rem 0;
+}
+.print-charge {
+  font-weight: 800;
+}
+.print-section form input {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+  border: 2px solid black;
+  outline: 2px solid white;
+  border-radius: 10px;
+}
+.print-section form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+.print-section button {
+  background-color: red;
+  font-size: 1.4rem;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  outline: none;
+  border-radius: 10px 15px;
+}
+.kl-inc {
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+  display: none;
+}
+.print-section button:hover {
+  background-color: orange;
+  transition: all 2s;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 56%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav-detail {
+    display: none;
+  }
+  .kl-inc {
+    display: block;
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+  }
+}
