@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --primary-color: purple;
+  --body-backgroundColor: rgb(242, 223, 242);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-size: 64.5%;
+}
+.main {
+  margin: 5rem auto;
+  width: 50vw;
+  box-shadow: 2px 4px 8px grey;
+  padding: 2rem 4rem;
+}
+
+.box,
+.block2 {
+  box-shadow: 2px 4px 8px grey;
+  padding: 2rem;
+}
+.que-block,
+.box,
+.box-2 {
+  display: flex;
+  column-gap: 1.1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.block2 {
+  border-top: 3px solid blueviolet;
+  margin: 3rem 0;
+}
+span {
+  font-size: 1.5rem;
+  color: rgb(178, 174, 174);
+  font-weight: 500;
+}
+.content {
+  margin-top: 0.6rem;
+  padding: 0.2rem;
+  color: blueviolet;
+}
+ul {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
