@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  /* animation-delay: -10s; */
+  animation: animate 20s infinite;
+  margin: 5rem auto;
+  width: 80vw;
+  height: 70vh;
+  background: url("https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400");
+  background-size: cover;
+  border-radius: 10px;
+  /* animation-direction: reverse; */
+  box-shadow: 2px 4px 8px grey;
+}
+@keyframes animate {
+  25% {
+    background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+  }
+  40% {
+    background-image: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+  }
+  60% {
+    background-image: url("https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+  }
+  80% {
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+  }
+  100% {
+    background-image: url("https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+  }
+}
