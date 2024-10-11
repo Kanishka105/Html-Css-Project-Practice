@@ -1,0 +1,143 @@
+/*********for small laptops 1344px lesser*****/
+@media (max-width: 950px) {
+  html {
+    font-size: 10px;
+  }
+
+  .form-tofill {
+    grid-template-columns: 1fr;
+  }
+  .feature-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .customer-review {
+    row-gap: 1.9em;
+    padding-top: 4rem;
+  }
+
+  blockquote,
+  .form-tofill label {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 560px) {
+  html {
+    font-size: 8px;
+  }
+
+  .section-hero {
+    grid-template-columns: 90vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    align-items: center;
+  }
+  .hero-img {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top: 2em;
+  }
+  .review-block {
+    grid-template-columns: 1fr;
+  }
+  .header-review {
+    grid-column: 1;
+  }
+  .photo-box {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .form-tofill input,
+  .form-tofill button,
+  select {
+    padding: 0.2em;
+  }
+  .form-tofill button {
+    padding: 0.9rem;
+  }
+  .eating-img {
+    margin: 0.4rem auto;
+    width: 50vw;
+  }
+  .header-list-unique li {
+    text-align: center;
+    padding: 2em;
+    border: 2px solid grey;
+  }
+  .text-1 {
+    font-size: 123em;
+  }
+  .outline-box {
+    display: block;
+  }
+
+  .header-list-unique {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f9f8f6;
+    padding: 10em;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: -6em;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 1s ease-out;
+    transform: translateX(100%);
+  }
+  .nav-open .header-list-unique {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .btn1 {
+    display: block;
+  }
+  .nav-open .btn2 {
+    display: block;
+  }
+  .nav-open .btn1 {
+    display: none;
+  }
+  footer {
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8px;
+    margin: 4rem auto 0 auto;
+    border-top: 2px solid grey;
+    max-width: 95vw;
+    padding: 2rem;
+  }
+  .flex-box {
+    grid-template-columns: 1fr;
+  }
+  .section-meal {
+    margin: 7rem auto 0 auto;
+    max-width: 50vw;
+  }
+  .footer-block1 {
+    grid-row: 2/3;
+  }
+
+  .meal-box img {
+    display: none;
+  }
+  .forming {
+    grid-template-columns: 1fr;
+  }
+  .plan-box {
+    row-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
