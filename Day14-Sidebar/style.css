@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inria Sans", "Times New Roman", Times, serif;
+  font-size: 64.5%;
+}
+body {
+  overflow-x: hidden;
+}
+.main {
+  position: fixed;
+  margin-left: 3rem;
+  background-color: rgba(168, 76, 76, 0.1);
+
+  overflow-x: hidden;
+  padding: 1rem;
+  height: 99vh;
+  cursor: pointer;
+  overflow-y: scroll;
+}
+.cut {
+  max-width: 3.5rem;
+}
+.cut:hover {
+  max-width: 22rem;
+}
+.img {
+  width: 4rem;
+  border-radius: 100%;
+}
+ul li {
+  list-style: none;
+  padding-left: 0.4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+ul li a:visited,
+ul li a:link {
+  font-size: 1.5rem;
+  color: brown;
+  text-decoration: none;
+  display: flex;
+  gap: 3rem;
+}
+h1,
+h3,
+strong {
+  color: red;
+}
+h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 3rem 0 1rem 0;
+}
+
+.head-heading,
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.profile {
+  margin-top: 3rem;
+}
+strong,
+p {
+  font-size: 1.2rem;
+}
+ion-icon {
+  font-size: 30px;
+}
