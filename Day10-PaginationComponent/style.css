@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 64.5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  margin: 4rem auto;
+  max-width: 120rem;
+  background-color: rgb(203, 237, 207);
+  padding: 2rem 4rem;
+  border-radius: 25px;
+  position: relative;
+}
+.count-block {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.icon {
+  position: absolute;
+
+  color: rgb(18, 103, 17);
+  font-size: 3rem;
+}
+
+.count-block li {
+  list-style: none;
+  font-size: 1.8rem;
+}
+.count-block li:nth-child(3) {
+  background-color: rgb(18, 103, 17);
+  padding: 0.6rem 0.9rem;
+  color: white;
+  border-radius: 100%;
+}
+.back-icon {
+  left: 0;
+}
+.for-icon {
+  right: 0;
+}
