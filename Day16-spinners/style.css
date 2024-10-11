@@ -1,0 +1,65 @@
+.out {
+  border: 10px solid rgb(46, 94, 238);
+  width: 2rem;
+  height: 2rem;
+  padding-top: 1rem;
+  padding: 3rem;
+  border-radius: 100%;
+  position: relative;
+  border-right-color: rgb(247, 246, 246);
+  border-bottom-color: rgb(242, 235, 235);
+  animation: animate 0.9s infinite;
+}
+@keyframes animate {
+  20% {
+    border-right-color: rgb(46, 94, 238);
+    border-bottom-color: rgb(46, 94, 238);
+    border-left-color: transparent;
+    border-top-color: rgb(241, 235, 235);
+  }
+  40% {
+    border-right-color: rgb(248, 244, 244);
+    border-bottom-color: rgb(46, 94, 238);
+    border-left-color: rgb(46, 94, 238);
+    border-top-color: rgb(248, 241, 241);
+  }
+  60% {
+    border-bottom-color: rgb(215, 211, 211);
+    border-left-color: rgb(46, 94, 238);
+    border-top-color: rgb(46, 94, 238);
+    border-bottom-color: rgb(215, 211, 211);
+    border-right-color: rgb(215, 211, 211);
+  }
+}
+.spin-2 {
+  border: 20px solid rgb(46, 94, 238);
+  width: 2rem;
+  height: 2rem;
+  padding-top: 1rem;
+  padding: 3rem;
+  border-radius: 100%;
+  position: relative;
+  border-right-color: rgb(230, 226, 226);
+
+  border-left-color: rgb(240, 235, 235);
+  border-bottom-color: transparent;
+  animation: animate2 0.9s infinite;
+}
+@keyframes animate2 {
+  20% {
+    border-bottom-color: rgb(46, 94, 238);
+    border-top-color: transparent;
+  }
+}
+.spin-3 {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.bar {
+  width: 0.5rem;
+  border-radius: 1px;
+  height: 2.5rem;
+
+  background-color: rgb(12, 12, 74);
+}
