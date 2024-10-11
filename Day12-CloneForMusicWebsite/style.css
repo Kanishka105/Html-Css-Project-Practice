@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inria Sans", "Times New Roman", Times, serif;
+  font-size: 64.5%;
+}
+
+body {
+  overflow-x: scroll;
+}
+
+/* header=============================================== */
+.header {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.nav-logo,
+.header-user,
+.letter {
+  border-radius: 100%;
+}
+
+.header-nav,
+.header-form,
+.nav-part1 {
+  display: grid;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.header-anchor:link,
+.header-anchor:visited {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.header-anchor:hover,
+.header-anchor:active {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transform: scale(0.87);
+  transition: all 1s;
+  background-color: rgb(159, 160, 162);
+}
+
+.header-user:link,
+.header-user:visited {
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.nav-logo {
+  width: 5rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.header-nav {
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-form {
+  padding: 1rem;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(44, 40, 40);
+}
+
+.header-form {
+  grid-template-columns: 1fr 8fr 1fr;
+}
+
+.header-input {
+  margin-right: 0.5rem;
+  outline: none;
+  width: 100%;
+  border: none;
+  background-color: rgb(44, 41, 41);
+
+  color: white;
+}
+
+.nav-part1 {
+  grid-template-columns: 1fr 1fr 5fr;
+}
+
+.header-home-icon {
+  font-size: 3rem;
+}
+
+.nav-part2,
+.header-anchor {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0 2rem;
+}
+
+.letter {
+  background-color: rgb(235, 137, 33);
+  padding: 1.1rem;
+  font-size: 1.5rem;
+}
+
+/* =================================mainsection====================================== */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* main Part1 Section==================================================store section=========== */
+.section-store {
+  background-color: rgb(44, 41, 41);
+  color: white;
+
+  padding: 2rem 1rem;
+}
+
+.lib-block,
+.lib-box {
+  gap: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store-mini-nav,
+.recent,
+.like-block {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.store-form {
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+
+.store-mini-nav a:link,
+.store-mini-nav a:visited {
+  margin-top: 1rem;
+  background-color: rgb(99, 99, 99);
+  border-radius: 25px;
+  padding: 0.7rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.store-input {
+  color: white;
+  margin: 0 0.5rem;
+  border: none;
+  outline: none;
+  background-color: rgb(99, 99, 99);
+}
+
+.store-form {
+  background-color: rgb(99, 99, 99);
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.like-block {
+  gap: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.like-block div h4 {
+  font-size: 1.9rem;
+}
+
+.like-block div p {
+  color: rgb(176, 165, 165);
+  font-weight: 300;
+}
+
+.list {
+  height: 40vh;
+  margin-top: 3rem;
+  overflow-y: scroll;
+}
+
+/* ==========================================================================play-section */
+.play-section {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  padding: 2rem 1.5rem;
+  position: absolute;
+  bottom: -5rem;
+  z-index: 2;
+}
+
+.play-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.play-song-detail,
+.detail-play,
+.play-handle-block ul,
+.range-block,
+.side-icon {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.detail-play div p {
+  word-spacing: 0.7rem;
+  font-weight: 300;
+}
+
+ul li {
+  list-style: none;
+}
+.side-icon {
+  flex-wrap: wrap;
+}
+.play-handle-block ul,
+.range-block {
+  justify-content: center;
+  gap: 3rem;
+}
+
+.play-icon {
+  font-size: 2rem;
+}
+
+.foot-range {
+  width: 20rem;
+  margin-top: 1rem;
+  background-color: grey;
+  color: black;
+}
+
+.song-time {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.side-icon li:hover {
+  color: rgb(31, 243, 45);
+  transform: scale(0.87);
+}
+
+/* ======================================================================display section */
+.display-section {
+  background-color: rgb(44, 41, 41);
+  padding: 2rem;
+  color: white;
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.display-mini-nav,
+.display-heading,
+.albums-block,
+.artist-block {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.display-mini-nav a:visited,
+.display-mini-nav a:link {
+  font-size: 1.6rem;
+  background-color: rgb(99, 99, 99);
+  padding: 0.7rem 2rem;
+  border-radius: 15px;
+}
+
+.display-h2 {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.display-heading {
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.display-heading strong {
+  font-size: 1.2rem;
+}
+
+.albums-block,
+.artist-block {
+  justify-content: space-between;
+}
+
+.poster {
+  width: 15rem;
+}
+
+.album-detail {
+  margin: 1rem 2rem;
+}
+
+.album-detail h3 {
+  font-size: 1.2rem;
+}
+
+.album-detail p {
+  color: grey;
+  margin: 0.5rem 0;
+}
+
+.artist-block p {
+  color: grey;
+  margin-top: 0.5rem;
+}
+
+/* footer=========================================================================== */
+.footer-block {
+  padding: 7rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 3rem;
+  align-items: first baseline;
+}
+
+.footer-block div h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1.3rem;
+}
+
+.footer-block div ul li {
+  font-size: 1.6rem;
+  color: grey;
+}
+
+.icon-block,
+.action {
+  display: flex;
+  gap: 2rem;
+}
+
+.self {
+  align-self: center;
+}
+
+.icon-block a:visited,
+.icon-block a:link {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 40%;
+  }
+  .side-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .play-song-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .alt-img {
+    width: 4rem;
+  }
+  .play-song-detail {
+    position: relative;
+  }
+  .pos {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+  }
+  .like-block div h4 {
+    font-size: 1.2rem;
+  }
+  .play-section {
+    font-size: 1rem;
+  }
+  .display-section {
+    overflow-x: hidden;
+  }
+  .albums-block,
+  .artist-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-block {
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-store {
+    width: 18rem;
+  }
+
+  .store-mini-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main {
+    grid-template-columns: 1fr 6fr;
+  }
+  .store-input {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .albums-block,
+  .artist-block {
+    grid-template-columns: 1fr 1fr;
+  }
+}
