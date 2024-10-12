@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 64.5%;
+}
+body {
+  background-color: rgb(216, 149, 124);
+}
+main {
+  margin: 3rem auto;
+  width: 85vw;
+}
+.name-section,
+.about-section,
+.work-section,
+.contact-details {
+  padding: 2rem;
+  border-radius: 25px;
+}
+.about-section,
+.work-section,
+.contact-details {
+  margin-top: 2rem;
+  background-color: rgb(191, 184, 184);
+}
+.name-section {
+  background-color: rgb(223, 215, 215);
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+}
+strong {
+  margin-top: 1.2rem;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+.icon {
+  font-size: 12rem;
+  color: orangered;
+}
+.project {
+  border: 2px dotted black;
+  width: 12rem;
+  height: 12rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 0.7rem;
+  margin: 2rem auto;
+  width: 80%;
+}
+.p {
+  font-size: 0.9rem;
+}
